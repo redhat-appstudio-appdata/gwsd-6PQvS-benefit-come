@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: go-webapp-sample-with-dockerfile-zrei
+  namespace: pmacik-tenant
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-appstudio/user-workload@sha256:3bf0980fa9285c46b9d62ecbb46955eae5b717e10f0bc0afdbe2f416db588215
+        name: container-image
+        resources: {}
+status: {}
