@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: go-webapp-sample-with-dockerfile-zrei
     spec:
       containers:
-      - image: quay.io/redhat-appstudio/user-workload:6PQvS-go-webapp-sample-with-dockerfile-zrei
+      - image: quay.io/redhat-appstudio/user-workload@sha256:3bf0980fa9285c46b9d62ecbb46955eae5b717e10f0bc0afdbe2f416db588215
         imagePullPolicy: Always
         livenessProbe:
           httpGet:

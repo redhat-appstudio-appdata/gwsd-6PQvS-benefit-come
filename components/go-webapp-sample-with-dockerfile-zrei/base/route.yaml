@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: go-webapp-sample-with-dockerfile-zrei
     app.kubernetes.io/part-of: gwsd
-  name: go-webapp-sample-with-docagss
+  name: go-webapp-sample-with-docoo4j
   namespace: pmacik-tenant
 spec:
   port:
